@@ -1,0 +1,51 @@
+{
+  "name": "nw-calendar",
+  "version": "0.0.1",
+  "description": "nw-calendar is an angular & ionic library,, supports week and month views, and more than 100 languages",
+  "author": {
+    "name": "Ahmed M. Elewa",
+    "email": "ahmed.elewa.fci@gmail.com",
+    "url": "https://github.com/ahmed-m-elewa"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahmed-m-elewa/nw-calendar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ahmed-m-elewa/nw-calendar/issues"
+  },
+  "homepage": "https://github.com/ahmed-m-elewa/nw-calendar",
+  "keywords": [
+    "calendar",
+    "week calendar",
+    "week view",
+    "month view",
+    "angular",
+    "Angular",
+    "Angular 6",
+    "Angular 7",
+    "Angular 8",
+    "Ionic"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": "^7.0.0",
+    "@angular/core": "^7.0.0",
+    "moment": "^2.24.0",
+    "font-awesome": "^4.7.0",
+    "bootstrap": "^4.3.1"
+  },
+  "main": "bundles/nw-calendar.umd.js",
+  "module": "fesm5/nw-calendar.js",
+  "es2015": "fesm2015/nw-calendar.js",
+  "esm5": "esm5/nw-calendar.js",
+  "esm2015": "esm2015/nw-calendar.js",
+  "fesm5": "fesm5/nw-calendar.js",
+  "fesm2015": "fesm2015/nw-calendar.js",
+  "typings": "nw-calendar.d.ts",
+  "metadata": "nw-calendar.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
