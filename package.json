@@ -1,7 +1,7 @@
 {
   "name": "nw-calendar",
-  "version": "0.0.1",
-  "description": "nw-calendar is an angular & ionic library,, supports week and month views, and more than 100 languages",
+  "version": "0.0.2",
+  "description": "nw-calendar is an angular & ionic calendar library",
   "author": {
     "name": "Ahmed M. Elewa",
     "email": "ahmed.elewa.fci@gmail.com",
