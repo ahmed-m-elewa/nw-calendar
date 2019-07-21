@@ -1,6 +1,6 @@
 {
   "name": "nw-calendar",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "nw-calendar is an angular & ionic calendar library",
   "author": {
     "name": "Ahmed M. Elewa",
@@ -30,8 +30,7 @@
   "license": "MIT",
   "peerDependencies": {
     "@angular/common": "^7.0.0",
-    "@angular/core": "^7.0.0",
-    "moment": "^2.24.0"
+    "@angular/core": "^7.0.0"
   },
   "devDependencies": {
     "moment": "^2.24.0"
