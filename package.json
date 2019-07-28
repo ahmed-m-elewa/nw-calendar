@@ -1,7 +1,7 @@
 {
   "name": "nw-calendar",
-  "version": "0.0.5",
-  "description": "nw-calendar is an angular & ionic calendar library",
+  "version": "0.1.0",
+  "description": "all your calendar needs in one place",
   "author": {
     "name": "Ahmed M. Elewa",
     "email": "ahmed.elewa.fci@gmail.com",
@@ -14,15 +14,14 @@
   "bugs": {
     "url": "https://github.com/ahmed-m-elewa/nw-calendar/issues"
   },
-  "homepage": "https://github.com/ahmed-m-elewa/nw-calendar",
+  "homepage": "https://ahmed-m-elewa.github.io/nw-calendar/",
   "keywords": [
     "calendar",
     "week calendar",
     "week view",
     "month view",
     "angular",
-    "Angular",
-    "Angular 6",
+    "moment",
     "Angular 7",
     "Angular 8",
     "Ionic"
@@ -30,10 +29,14 @@
   "license": "MIT",
   "peerDependencies": {
     "@angular/common": "^7.0.0",
-    "@angular/core": "^7.0.0"
+    "@angular/core": "^7.0.0",
+    "rxjs": ">= 6.0.0 < 7.0.0"
   },
   "dependencies": {
     "moment": "^2.24.0",
+    "@fortawesome/angular-fontawesome": "0.3.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.4",
+    "@fortawesome/free-solid-svg-icons": "^5.3.1",
     "tslib": "^1.9.0"
   },
   "main": "bundles/nw-calendar.umd.js",

@@ -1,0 +1,20 @@
+language: node_js
+
+node_js:
+  - '12'
+
+script: npm test
+
+notifications:
+  email: false
+
+cache:
+  directories:
+    - node_modules
+
+sudo: required
+
+addons:
+  chrome: stable
+
+dist: trusty

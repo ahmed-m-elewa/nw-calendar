@@ -2,8 +2,10 @@ import { OnInit } from '@angular/core';
 import { Moment } from 'moment';
 import { DateUtilsService } from './utils/date-utils.service';
 import { nwDirection, nwView } from './types';
+import { IconsUtilsService } from './utils/icons-utils.service';
 export declare class NwCalendarComponent implements OnInit {
     dateUtils: DateUtilsService;
+    iconsUtils: IconsUtilsService;
     viewType: nwView;
     locale: string;
     dir: nwDirection;
@@ -16,7 +18,7 @@ export declare class NwCalendarComponent implements OnInit {
     private from_date;
     private to_date;
     disabledDate: (date: Date) => boolean;
-    constructor(dateUtils: DateUtilsService);
+    constructor(dateUtils: DateUtilsService, iconsUtils: IconsUtilsService);
     ngOnInit(): void;
     prev(year?: any): void;
     next(year?: any): void;
