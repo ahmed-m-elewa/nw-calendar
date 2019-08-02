@@ -16,6 +16,7 @@
   },
   "homepage": "https://ahmed-m-elewa.github.io/nw-calendar/",
   "keywords": [
+    "angular calendar",
     "calendar",
     "week calendar",
     "week view",
@@ -28,8 +29,8 @@
   ],
   "license": "MIT",
   "peerDependencies": {
-    "@angular/common": "^7.0.0",
-    "@angular/core": "^7.0.0",
+    "@angular/common": ">=7.0.0",
+    "@angular/core": ">=7.0.0",
     "rxjs": ">= 6.0.0 < 7.0.0"
   },
   "dependencies": {
